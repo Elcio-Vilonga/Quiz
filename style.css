@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppisns:wgth@200;300;400;500&disolay=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(67, 78, 83);
+    background-image: linear-gradient(315deg, rgb(48, 58, 63) 0%, rgb(72, 86, 88) 100%);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.quiz-container{
+    background-color: rgba(107, 115, 122, 0.532);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(39, 38, 38, 0.534);
+    width: 600px;
+    overflow: hidden;
+}
+
+.quiz-header{
+    padding: 4rem;
+}
+
+h2{
+    padding: 1rem;
+    color: aqua;
+    text-align: center;
+    margin: 0;
+}
+
+ul{
+    columns: 2;
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+ul li label{
+    cursor: pointer;
+}
+
+.text{
+    border-radius: 4px;
+    background: #9aa8a6c9;
+    transition: color 300ms ease-in-out, background 300ms ease-in-out;
+}
+.text:hover{
+    /* color: black; */
+    border-color: rgb(0, 255, 255);
+    background: #ffffff;
+}
+
+button{
+    background-color: rgb(26, 92, 92);
+    color: azure;
+    border-radius: 15px;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding: 1.3rem;
+}
+button:hover{
+    background-color: rgb(17, 66, 66);
+    border-color: aqua;
+}
+button:focus{
+    outline: none;
+    /* background-color: green; */
+}
